@@ -1,10 +1,11 @@
 The Boyer-Moore voting algorithm is one of the popular optimal algorithms which is used to find the majority element among the given elements that have more than N/ 2 occurrences. This works perfectly fine for finding the majority element which takes 2 traversals over the given elements, which works in O(N) time complexity and O(1) space complexity.
 
-#Steps to implement the algorithm :
+<st>Steps to implement the algorithm<st/> :
 
-Step 1 – Find a candidate with the majority –
-#Initialize a variable say i ,votes = 0, candidate =-1 
-#Traverse through the array using for loop
-#If votes = 0, choose the candidate = arr[i] , make votes=1.
-#else if the current element is the same as the candidate increment votes
-#else decrement votes.
+Step 1 – Find a candidate with the majority:
+-------------------------------------------
+<br/>   Initialize a variable say i ,votes = 0, candidate =-1 
+<br/>   Traverse through the array using for loop
+<br/>   If votes = 0, choose the candidate = arr[i] , make votes=1.
+<br/>   else if the current element is the same as the candidate increment votes
+<br/>   else decrement votes.
