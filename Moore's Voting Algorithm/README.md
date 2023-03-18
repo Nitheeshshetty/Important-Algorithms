@@ -7,10 +7,10 @@ Steps to implement the algorithm:
 Step 1 – Find a candidate with the majority
 -----------------------------------------------
         ->Initialize a variable say i ,votes = 0, candidate =-1 
-<br/>   ->Traverse through the array using for loop
-<br/>   ->If votes = 0, choose the candidate = arr[i] , make votes=1.
-<br/>   ->else if the current element is the same as the candidate increment votes
-<br/>   ->else decrement votes.
+        ->Traverse through the array using for loop
+        ->If votes = 0, choose the candidate = arr[i] , make votes=1.
+        ->else if the current element is the same as the candidate increment votes
+        ->else decrement votes.
 <br/>
 <br/>
 
