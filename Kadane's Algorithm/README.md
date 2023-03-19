@@ -3,7 +3,7 @@
 <br/>
 Steps to be followed in this algorithm is:
 -----------------------------------------
-     ->Initialize the variables max_so_far = INT_MIN and max_ending_here = 0
+     ->Initialize the variables max_so_far = Integer.MIN_VALUE and max_ending_here = 0
      ->Run a for loop from 0 to N-1 and for each index i: 
          (i) Add the arr[i] to max_ending_here.
          (ii) If  max_so_far is less than max_ending_here then update max_so_far  to max_ending_here.
