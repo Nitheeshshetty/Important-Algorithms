@@ -8,9 +8,9 @@ Step 1 – Find a candidate with the majority
 -----------------------------------------------
         ->Initialize a variable say i ,cnt = 0, ele =0 
         ->Traverse through the array using for loop
-        ->If votes = 0, choose the ele = arr[i] , make cnt=1.
+        ->If cnt = 0, choose the ele = arr[i] , make cnt=1.
         ->else if the current element is the same as the candidate(ele) increment cnt
-        ->else decrement votes.
+        ->else decrement cnt.
 
 Step 2 – Check if the candidate has more than N/2 votes
 ---------------------------------------------------------
