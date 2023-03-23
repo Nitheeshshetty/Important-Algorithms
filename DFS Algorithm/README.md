@@ -4,6 +4,9 @@ So the basic idea is to start from the root or any arbitrary node and mark the n
 <br/>
 Follow the below steps to solve the problem :
 --------------------------------------------
-    1. Create a recursive function that takes the index of the node and a visited array.
-    2. Mark the current node as visited and print the node.
-    3. Traverse all the adjacent and unmarked nodes and call the recursive function with the index of the adjacent node.
+        1. First, create a stack with the total number of vertices in the graph.
+        2. Now, choose any vertex as the starting point of traversal, and push that vertex into the stack.
+        3. After that, push a non-visited vertex (adjacent to the vertex on the top of the stack) to the top of the stack.
+        4. Now, repeat steps 3 and 4 until no vertices are left to visit from the vertex on the stack's top.
+        5. If no vertex is left, go back and pop a vertex from the stack.
+        6. Repeat steps 2, 3, and 4 until the stack is empty.
