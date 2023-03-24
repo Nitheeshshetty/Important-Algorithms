@@ -38,8 +38,7 @@ class GFG {
 }
 
 
-class Solution {
-    
+class Solution { 
     public void deleteAlternate (Node head){
         Node temp = head;
         int i = 0;
