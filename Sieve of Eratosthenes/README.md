@@ -1,1 +1,1 @@
-The Sieve of Eratosthenes is the simplest prime number sieve. It is a Prime number algorithm to search all the prime numbers in a given limit.
+The Sieve of Eratosthenes is the simplest prime number sieve. It is a Prime number algorithm to search all the prime numbers in a given limit.This algorithm filters out the prime number in an iterative approach. The filtering process starts with the smallest prime number. A Prime is a natural number that is greater than 1 and has only two divisors, viz., 1 and the number itself.
