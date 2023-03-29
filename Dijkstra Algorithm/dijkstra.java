@@ -7,7 +7,8 @@ class DriverClass
     public static void main(String args[]) throws IOException {
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(read.readLine());
-        while (t-- > 0) {
+        while (t-- > 0) 
+        {
             String str[] = read.readLine().trim().split(" ");
             int V = Integer.parseInt(str[0]);
             int E = Integer.parseInt(str[1]);
@@ -17,7 +18,6 @@ class DriverClass
             {
                 adj.add(new ArrayList<ArrayList<Integer>>());
             }
-            
             int i=0;
             while (i++<E) {
                 String S[] = read.readLine().trim().split(" ");
@@ -43,7 +43,7 @@ class DriverClass
         }
     }
 }
-// } Driver Code Ends
+
 
 
 //User function Template for Java
