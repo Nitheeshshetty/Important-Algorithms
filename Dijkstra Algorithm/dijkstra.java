@@ -1,4 +1,3 @@
-//{ Driver Code Starts
 import java.util.*;
 import java.io.*;
 import java.lang.*;
@@ -6,9 +5,7 @@ import java.lang.*;
 class DriverClass
 {
     public static void main(String args[]) throws IOException {
-
-        BufferedReader read =
-            new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(read.readLine());
         while (t-- > 0) {
             String str[] = read.readLine().trim().split(" ");
@@ -38,11 +35,8 @@ class DriverClass
             }
             
             int S = Integer.parseInt(read.readLine());
-            
-            Solution ob = new Solution();
-            
+            Solution ob = new Solution();  
             int[] ptr = ob.dijkstra(V, adj, S);
-            
             for(i=0; i<V; i++)
                 System.out.print(ptr[i] + " ");
             System.out.println();
