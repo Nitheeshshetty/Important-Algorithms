@@ -1,6 +1,3 @@
-//{ Driver Code Starts
-//Initial template for JAVA
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
