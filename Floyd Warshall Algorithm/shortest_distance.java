@@ -35,8 +35,7 @@ class GFG
 class Solution
 {
     public void shortest_distance(int[][] mat)
-    {
-        // Code here 
+    { 
         int n=mat.length;
         for(int k=0;k<n;k++){
             for(int i=0;i<n;i++){
