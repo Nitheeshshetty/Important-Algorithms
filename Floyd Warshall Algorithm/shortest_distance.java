@@ -30,7 +30,6 @@ class GFG
 
 
 
-//User function template for JAVA
 
 class Solution
 {
